@@ -4,12 +4,22 @@
     <meta charset="utf-8">
     <meta name="viwport" content="width=device-width,user-scalable=no">
     <title>Hoja de Vida</title>
+    <style>
+      h1
+      {
+        font-size: 50px
+      }
+    </style>
+    <link rel="stylesheet" href="css/estilos.css">
   </head>
-   <body>
+   <body id="contenedor">
     <header>
-      <svg width="150px" height="100px" viewbox="0 0 150 100">
-        <image width="150px" height="100px" xlink:href="img/logo.svg">Logo SVG</image>
-      </svg>
+      <section id="logo">
+        <svg width="150px" height="100px" viewbox="0 0 150 100">
+          <image width="150px" height="100px" xlink:href="img/logo.svg">Logo SVG</image>
+        </svg>
+      </section>
+      <section id="inf_basica">
         <h1>
           <strong>Hoja de Vida</strong>
         </h1>
@@ -19,12 +29,17 @@
         <h3>
           Bucaramanga, Santander, Colombia, 2 de junio 1955
         </h3>
+      </section>
     </header>
-    <nav>
-      <p>
-        <a href="index.html">Inicio</a> | <a href=educacion/educacion.html>Educacion</a> | <a href="experiencia/experiencia.html">Experiencia</a>
-    </nav>
-     <section>
+    <section>
+      <nav>
+        <p>
+          <a class="enlace" href="index.html">Inicio</a> |
+          <a class="enlace" href=educacion/educacion.html>Educacion</a> |
+          <a class="enlace" href="experiencia/experiencia.html">Experiencia</a>
+      </nav>
+    </section>
+     <section id="inf_personal">
      </p>
      <h2>
        Informacion Personal

@@ -6,10 +6,10 @@ footer
 {
   margin-top: 30px
 }
-img
+/* img
 {
   border-radius: 10px;
-}
+}*/
 #contenedor
 {
   font-family: helvetica;
@@ -23,4 +23,18 @@ img
 .enlace
 {
   color: red;
+}
+/* # se usa para enlaces dentro de la misma página
+a[href^='#']
+{
+  color: red;
+}*/
+img[src$='.svg']
+{
+  border-radius: 50px;
+}
+img[src$='.jpg'],img[src$='.png']
+{
+  border: 2px solid blue;
+  border-radius: 5px;
 }
